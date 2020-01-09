@@ -1,0 +1,176 @@
+[
+    {
+        "model-name": "test",
+        "resource-file": "tests.json",
+        "table-name": "tests"
+    },
+    {
+        "model-name": "AssetCategory",
+        "resource-file": "asset_categories.json"
+    },
+    {
+        "model-name": "directories",
+        "resource-file": "directories.json",
+        "table-name": "directories"
+    },
+    {
+        "model-name": "budget",
+        "resource-file": "budgets.json",
+        "table-name": "budgets"
+    },
+    {
+        "model-name": "favorite",
+        "resource-file": "favorites.json",
+        "table-name": "favorites"
+    },
+    {
+        "model-name": "help",
+        "resource-file": "helps.json",
+        "table-name": "helps"
+    },
+    {
+        "model-name": "marketplace",
+        "resource-file": "marketplaces.json",
+        "table-name": "marketplaces"
+    },
+    {
+        "model-name": "message",
+        "resource-file": "messages.json",
+        "table-name": "messages"
+    },
+    {
+        "model-name": "ybr_membership1_product",
+        "resource-file": "ybr_membership1_products.json",
+        "table-name": "ybr_membership1_products"
+    },
+    {
+        "model-name": "ybr_membership3_member",
+        "resource-file": "ybr_membership3_members.json",
+        "table-name": "ybr_membership3_members"
+    },
+    {
+        "model-name": "file",
+        "resource-file": "files.json",
+        "table-name": "files"
+    },
+    {
+        "model-name": "ybr_membership4_affiliate",
+        "resource-file": "ybr_membership4_affiliates.json",
+        "table-name": "ybr_membership4_affiliates"
+    },
+    {
+        "model-name": "ybr_notification",
+        "resource-file": "ybr_notifications.json",
+        "table-name": "ybr_notifications"
+    },
+    {
+        "model-name": "property",
+        "resource-file": "properties.json",
+        "table-name": "properties"
+    },
+    {
+        "model-name": "user_role",
+        "resource-file": "user_roles.json",
+        "table-name": "user_roles"
+    },
+    {
+        "model-name": "site_role",
+        "resource-file": "site_roles.json",
+        "table-name": "roles"
+    },
+    {
+        "model-name": "proposal",
+        "resource-file": "proposals.json",
+        "table-name": "proposals"
+    },
+    {
+        "model-name": "profile",
+        "resource-file": "profiles.json",
+        "table-name": "profiles"
+    },
+    {
+        "model-name": "ybr_membership7_feature",
+        "resource-file": "ybr_membership7_features.json",
+        "table-name": "ybr_membership7_features"
+    },
+    {
+        "model-name": "ybr_membership6_permission",
+        "resource-file": "ybr_membership6_permissions.json",
+        "table-name": "ybr_membership6_permissions"
+    },
+    {
+        "model-name": "ybr_membership5_addon",
+        "resource-file": "ybr_membership5_addons.json",
+        "table-name": "ybr_membership5_addons"
+    },
+    {
+        "model-name": "project",
+        "resource-file": "projects.json",
+        "table-name": "projects"
+    },
+    {
+        "model-name": "budget_item",
+        "resource-file": "budget_items.json",
+        "table-name": "budget_items"
+    },
+    {
+        "model-name": "chatroom",
+        "resource-file": "chatrooms.json",
+        "table-name": "chatrooms"
+    },
+    {
+        "model-name": "chatroom_message",
+        "resource-file": "chatroom_messages.json",
+        "table-name": "chatroom_messages"
+    },
+    {
+        "model-name": "chatroom_messages_file",
+        "resource-file": "chatroom_messages_files.json",
+        "table-name": "chatroom_messages_files"
+    },
+    {
+        "model-name": "porfolio",
+        "resource-file": "porfolios.json",
+        "table-name": "porfolios"
+    },
+    {
+        "model-name": "portfolio",
+        "resource-file": "portfolios.json",
+        "table-name": "portfolios"
+    },
+    {
+        "model-name": "portfolios_photo",
+        "resource-file": "portfolios_photos.json",
+        "table-name": "portfolios_photos"
+    },
+    {
+        "model-name": "ybr_membership2_plan",
+        "resource-file": "ybr_membership2_plans.json",
+        "table-name": "ybr_membership2_plans"
+    },
+    {
+        "model-name": "ybr_membership5_transaction",
+        "resource-file": "ybr_membership5_transactions.json",
+        "table-name": "ybr_membership5_transactions"
+    },
+    {
+        "model-name": "custom_field",
+        "resource-file": "custom_fields.json",
+        "table-name": "custom_fields"
+    },
+    {
+        "model-name": "page",
+        "resource-file": "pages.json",
+        "table-name": "pages"
+    },
+    {
+        "model-name": "user",
+        "resource-file": "users.json",
+        "table-name": "users"
+    },
+    {
+        "model-name": "ybr_notification_type",
+        "resource-file": "ybr_notification_types.json",
+        "table-name": "ybr_notification_types"
+    }
+]

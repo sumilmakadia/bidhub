@@ -1,0 +1,4 @@
+<p>
+   <h6>[% field_title %]</h6>
+   <small class="text-muted"> {{ [% field_value %] }}</small>
+</p>
