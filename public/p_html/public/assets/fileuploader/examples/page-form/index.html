@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Avatar form example - Fileuploader - innostudio.de</title>
+		
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Avatar form example - Fileuploader - innostudio.de">
+        
+        <link rel="shortcut icon" href="https://innostudio.de/fileuploader/images/favicon.ico">
+
+		<!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        <link href="../../dist/font/font-fileuploader.css" rel="stylesheet">
+        
+		<!-- styles -->
+		<link href="../../dist/jquery.fileuploader.min.css" media="all" rel="stylesheet">
+		<link href="../thumbnails/css/jquery.fileuploader-theme-thumbnails.css" media="all" rel="stylesheet">
+		
+		<!-- js -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+		<script src="../../dist/jquery.fileuploader.min.js" type="text/javascript"></script>
+		<script src="./js/custom.js" type="text/javascript"></script>
+
+		<style>
+			body {
+				font-family: 'Roboto', sans-serif;
+				font-size: 14px;
+                line-height: normal;
+				background-color: #fff;
+
+				margin: 0;
+			}
+            
+            .fileuploader {
+                padding: 0;
+                background: none;
+            }
+            
+            .fileuploader-theme-thumbnails .fileuploader-thumbnails-input, 
+            .fileuploader-theme-thumbnails .fileuploader-items-list .fileuploader-item {
+                width: 128px;
+                height: 128px;
+            }
+            
+            form {
+                margin: 15px;
+                padding: 15px;
+                background: #f5f6fA;
+                max-width: 560px;
+            }
+			
+			label {
+				font-weight: bold;
+				display: block;
+			}
+			
+			input[type="text"],
+			input[type="email"] {
+				padding: 6px;
+				margin-bottom: 20px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<form action="php/form_upload.php" method="post" enctype="multipart/form-data">
+			<label>Username:</label>
+			<input type="text" name="username">
+			
+			<label>Email:</label>
+			<input type="email" name="email">
+			
+			<label>Photo:</label>
+            <!-- file input -->
+			<input type="file" name="files" required>
+			
+			<input type="submit">
+		</form>
+    </body>
+</html>

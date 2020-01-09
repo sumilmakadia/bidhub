@@ -1,0 +1,22 @@
+.voyager .side-menu .navbar-header {
+    background: #03a9f3;
+    border-color: #03a9f3;
+}
+
+.voyager .side-menu.sidebar-inverse {
+    background: #fff;
+    background: linear-gradient(45deg,#fff,#fff);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff",endColorstr="#fff",GradientType=1);
+    overflow-x: hidden;
+    transition: width .5s cubic-bezier(.19,1,.22,1);
+}
+.voyager .side-menu.sidebar-inverse .navbar li.active>a {
+    color: #03a9f3;
+    background: none;
+    border-left: 0;
+}
+.voyager .side-menu.sidebar-inverse .navbar li>a:hover {
+    color: #03a9f3;
+    background: none;
+}
+
