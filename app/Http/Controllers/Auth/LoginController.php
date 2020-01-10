@@ -18,6 +18,8 @@
 					*/
 
 					use AuthenticatesUsers;
+					
+					
 
 					/**
 					 * Where to redirect users after login.
@@ -30,6 +32,7 @@
 					 * @return void
 					 */
 					public function __construct(){
+					   
 							  $this->middleware('guest')->except('logout');
 					}
 		  }

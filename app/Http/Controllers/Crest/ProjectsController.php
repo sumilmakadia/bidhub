@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\DB;
 use Intervention\Image\ImageManagerStatic as Image;
 use App\Models\Crest\chatroom;
 use App\Models\Crest\proposal_notifications;
+use Session;
 
 class ProjectsController extends Controller{
 					/**
@@ -72,10 +73,12 @@ class ProjectsController extends Controller{
 							   if(Auth::user()->role_id != 2) {
 							       return view('project-room.public', compact('projects', 'creators', 'is_favorite'));
 							   } else {
+							       
                                    return redirect('/directory');
                                }
 					            
 					        }else{
+					             Session::flash('redirectlogin_ses', 'You must login to view project-room');
 					            return redirect('/admin/login');
 					        }
 							  
@@ -109,9 +112,18 @@ class ProjectsController extends Controller{
 					 * @return Illuminate\View\View
 					 */
 					public function create(){
-							  $creators = User::pluck('name', 'id')->all();
-                            $files     = array();
-							  return view('project-room.create', compact('creators', 'files'));
+					        
+					        if($user = Auth::user()){
+					            
+					             $creators = User::pluck('name', 'id')->all();
+                                $files     = array();
+							    return view('project-room.create', compact('creators', 'files'));
+					            
+					        }else{
+					            Session::flash('redirectlogin_ses', 'You must login to create project');
+					            return redirect('/admin/login');
+					        }
+							
 					}
 
 					/**

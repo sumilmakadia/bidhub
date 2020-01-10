@@ -126,8 +126,9 @@ header .navbar-light .navbar-nav .nav-link{color: #fff;}
 <script>
  
 $('.carousel').carousel({
-  interval: 1000 * 3,
-  pause: "false"
+  interval: 1000 * 5,
+  pause: "false",
+  rewindNav:false
 });
 
 </script>

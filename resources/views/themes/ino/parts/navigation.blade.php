@@ -160,7 +160,11 @@ li.nav-item.mobile_menu{
 <li class="nav-item mobile_menu"><a  class="nav-link" href="{{url('/help-wanted')}}">Help wanted</a></li>
 <li class="nav-item mobile_menu"><a  class="nav-link" href="{{url('/equipment-for-sale')}}">Building materials and equipment</a></li>
 <li class="nav-item mobile_menu"><a  class="nav-link" href="{{url('/property-for-sale')}}">Property for sale</a></li>
-<li class="nav-item mobile_menu"><a  class="nav-link" href="{{url('/admin/login')}}">Login</a></li>
+<li class="nav-item mobile_menu"><a  class="nav-link" href="{{url('/project-room')}}">Project Room</a></li>
+<li class="nav-item mobile_menu"><a  class="nav-link" href="{{url('/directory/search?trade=&account_type=General Contractor&distance=100&page=1')}}">Builders</a></li>
+<li class="nav-item mobile_menu"><a  class="nav-link" href="{{url('/directory/search?trade=Educational Services&account_type=&distance=100&page=1')}}">Education</a></li>
+<li class="nav-item mobile_menu"><a class="nav-link" href="{{url('/directory/search?trade=Estimating Tools- Software&account_type=&distance=100&page=1')}}">Estimating</a></li>
+<li class="nav-item mobile_menu"><a  class="nav-link" href="{{url('/admin/login')}}">Login or Signup here </a></li>
 				</ul>
 
 				
@@ -202,7 +206,11 @@ li.nav-item.mobile_menu{
     <li><a href="{{url('/help-wanted')}}">Help wanted </a></li>
     <li><a href="{{url('/equipment-for-sale')}}">Building materials and equipment </a></li>
     <li><a href="{{url('/property-for-sale')}}">Property for sale </a></li>
-    <li><a href="{{url('/admin/login')}}">Login </a></li>
+    <li><a href="{{url('/project-room')}}">Project Room</a></li>
+    <li><a href="{{url('/directory/search?trade=&account_type=General Contractor&distance=100&page=1')}}">Builders</a></li>
+    <li><a href="{{url('/directory/search?trade=Educational Services&account_type=&distance=100&page=1')}}">Education</a></li>
+    <li><a href="{{url('/directory/search?trade=Estimating Tools- Software&account_type=&distance=100&page=1')}}">Estimating</a></li>
+    <li><a href="{{url('/admin/login')}}">Login or Signup here </a></li>
   </ul>
 </div> 
 </li>

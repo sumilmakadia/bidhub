@@ -138,6 +138,7 @@
 	Route::post('/help-wanted/search', 'SearchController@help')->name('help-wanted.help.search');
 	Route::get('/help-wanted/show/{help}', 'Crest\HelpsController@show')->name('help-wanted.help.show');
 	Route::get('/project-room', 'Crest\ProjectsController@public')->name('project-room.project.public');
+	Route::get('/project-room/create', 'Crest\ProjectsController@create')->name('project-room.project.create');
 	Route::get('/property-for-sale', 'Crest\PropertiesController@public')->name('property-for-sale.property.public');
 	Route::post('/property-for-sale/search', 'SearchController@property')->name('property-for-sale.property.search');
 	Route::get('/show/{property}', 'Crest\PropertiesController@show')->name('property-for-sale.property.show')->where('id', '[0-9]+');
@@ -437,8 +438,7 @@
 								   ->name('project-room.project.admin');
 							  Route::get('/manage', 'Crest\ProjectsController@index')
 								   ->name('project-room.project.index');
-							  Route::get('/create', 'Crest\ProjectsController@create')
-								   ->name('project-room.project.create');
+							  
 							  Route::get('/show/{project}', 'Crest\ProjectsController@show')
 								   ->name('project-room.project.show');
 							  Route::get('/{project}/edit', 'Crest\ProjectsController@edit')

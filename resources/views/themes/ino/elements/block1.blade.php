@@ -135,7 +135,7 @@ that are either looking for help or seeking work.</li>
 <li>Learn about projects that match your specialty skills and submit bids electronically.</li>
 <li>Expand your contractor network to attract new hires and buy and sell equipment.</li>
 </ul>
-<!--<a href="{{url('/project-room/create')}}" class="btn btn-info">Add projects here</a>-->
+<a href="{{url('/project-room/create')}}" class="btn btn-info">Add projects here</a>
                </div>
                <div class="col-md-6 text-center" data-aos="fade-right">
                    <img src="{{asset('storage/company/images/computer.png')}}" class="img-w-42">
